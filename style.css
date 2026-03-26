@@ -1,6 +1,40 @@
 body{
-    .home{
-        background-color: yellowgreen;
+    .home{}
+
+    .him{
+        background-color: tomato;
+    }
         
+
+    .contact{
+        background-color: rgb(15, 77, 184);
+        
+        
+        
+        
+        
+    }
+    .me{
+        font-style: italic;
+    }
+    .about{
+        background-color: cadetblue;
+        font-size: large;
+        font-style: italic;
+        display: grid;
+        grid-template-rows: max-content;
+        padding: 100px;
+        height: 500px;
+        width: 600px;
+    grid-row: 2;
+    
+        
+        
+    }
+    .skill{
+        background-color: darkkhaki;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
     }
 }
